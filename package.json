@@ -1,0 +1,51 @@
+{
+  "name": "react-portable-portal",
+  "version": "0.1.0",
+  "description": "Create a portal without extra DOM dependency (and its configuration)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": "^16"
+  },
+  "scripts": {
+    "build": "rimraf dist && swc src --out-dir=dist --source-maps=false & tsc",
+    "test": "jest"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sundaycrafts/react-portable-portal.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "sundaycrafts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sundaycrafts/react-portable-portal/issues"
+  },
+  "homepage": "https://github.com/sundaycrafts/react-portable-portal#readme",
+  "peerDependencies": {
+    "react": "18.x || 17.x",
+    "typescript": "^4.1"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.187",
+    "@swc/jest": "^0.2.21",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^14.2.0",
+    "@tsconfig/node16": "^1.0.2",
+    "@types/jest": "^27.5.1",
+    "@types/react": "^18.0.9",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "prettier": "^2.6.2",
+    "react": "^18.1.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.4"
+  }
+}
