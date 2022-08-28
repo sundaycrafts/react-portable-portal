@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/react-portable-portal)](https://npmjs.com/package/react-portable-portal)
+
 Create a portal without extra DOM dependency (and its configuration)
 
 ### Why?
