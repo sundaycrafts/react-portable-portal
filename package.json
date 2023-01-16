@@ -1,15 +1,16 @@
 {
   "name": "react-portable-portal",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create a portal without extra DOM dependency (and its configuration)",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "rimraf dist && swc src --out-dir=dist --source-maps=false & tsc && cp package.json README.md LICENSE dist",
     "test": "jest"
   },
   "files": [
-    "dist"
+    "**/*.js",
+    "**/*.d.ts"
   ],
   "repository": {
     "type": "git",
